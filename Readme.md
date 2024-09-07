@@ -15,39 +15,7 @@
 
 Run the compiled executable to start the neural network training.
 
-# Neural Network for XOR Problem in C++
-
-This project implements a simple neural network in C++ to solve the XOR problem. The neural network consists of:
-- An input layer with 2 neurons
-- One hidden layer with 2 neurons
-- An output layer with 1 neuron
-
-## Features
-
-- Random initialization of weights and biases
-- Sigmoid activation function
-- Forward and backward propagation
-- Training using gradient descent
-- Output printing after every 5000 epochs up to 25000 epochs
-
-## Code Overview
-
-### NeuralNetwork Class
-
-The `NeuralNetwork` class contains the following methods:
-
-- **Constructor**: Initializes weights, biases, and learning rate.
-- **sigmoid**: Computes the sigmoid activation function.
-- **sigmoid_derivative**: Computes the derivative of the sigmoid function.
-- **train**: Trains the network using forward and backward propagation.
-- **predict**: Predicts the output for given inputs.
-
-### Main Function
-
-The `main` function:
-1. Initializes the neural network with a learning rate of 0.1.
-
-# Additional Information
+## This repository contains Neural Network for XOR and KNN algorithm in C++
 
 ## Dependencies
 
